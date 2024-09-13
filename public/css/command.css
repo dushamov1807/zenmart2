@@ -1,4 +1,7 @@
-html,
+:root {
+  --font: "jost";
+}
+
 body {
   margin: 0%;
   padding: 0%;
@@ -87,7 +90,7 @@ p {
   border: none;
   outline: none;
 
-  font-family: "jost";
+  font-family: var(--font);
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -103,7 +106,7 @@ p {
   border: none;
   outline: none;
 
-  font-family: "jost";
+  font-family: var(--font);
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -165,7 +168,7 @@ p {
 }
 
 .navbar_frame .box_info_box span {
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: normal;
   font-weight: 400;
   font-size: 13px;
@@ -174,7 +177,7 @@ p {
 }
 
 .navbar_frame .box_info_box strong {
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -196,7 +199,7 @@ p {
   background-color: #f5c34b;
   border-radius: 50%;
 
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: normal;
   font-weight: 700;
   font-size: 8px;
@@ -241,7 +244,7 @@ p {
 }
 
 .navbar_frame .browse_box span {
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -266,7 +269,7 @@ p {
 }
 
 .navbar_frame .router_menu a {
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -286,7 +289,7 @@ p {
 
 .navbar_frame .sorting_menu span {
   margin-right: 20px;
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -311,7 +314,7 @@ p {
 .footer_frame .footer_spec_title {
   display: block;
   margin-bottom: 30px;
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -355,7 +358,7 @@ p {
 }
 
 .footer_frame .footer_contact_main div strong {
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -366,7 +369,7 @@ p {
 
 .footer_frame .footer_contact_main div span {
   margin-top: 10px;
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
